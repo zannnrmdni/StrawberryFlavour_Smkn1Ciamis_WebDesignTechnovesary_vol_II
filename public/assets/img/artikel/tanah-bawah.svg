@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img">
+<rect width="1200" height="600" fill="#FFF6E6"/>
+<g fill="none" stroke="#16262B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="0" y="180" width="1200" height="420" fill="#DE7A45" stroke="none" opacity=".92"/>
+    <rect x="0" y="180" width="1200" height="70" fill="#86C254" stroke="none"/>
+    <rect x="0" y="250" width="1200" height="70" fill="#7B4B2A" stroke="none" opacity=".85"/>
+    <path d="M0 180h1200M0 250h1200M0 320h1200" stroke-width="4"/>
+    <path d="M0 392c80-18 160 18 240 0s160-18 240 0 160 18 240 0 160-18 240 0 160 18 240 0" stroke="#FFF6E6" stroke-width="5" opacity=".7"/>
+    <path d="M180 180c0 66 16 110 48 132s48 66 48 132M180 312c32 2 56 18 72 48" stroke="#BFE4F5" stroke-width="10"/>
+    <path d="M540 180c-18 48-10 84 24 108s40 60 20 96M564 288c-34 2-58 18-72 48" stroke="#BFE4F5" stroke-width="8" opacity=".85"/>
+    <path d="M900 180c22 52 14 92-24 120s-42 56-12 90M876 300c38 6 62 24 74 54" stroke="#BFE4F5" stroke-width="9" opacity=".8"/>
+    <path d="M120 512c44-18 88-18 132 0s88 18 132 0 88-18 132 0 88 18 132 0 88-18 132 0 88 18 132 0 88-18 132 0" stroke="#7B4B2A" stroke-width="4" opacity=".65"/>
+    <circle cx="286" cy="430" r="8" fill="#F3C64F" stroke="none"/>
+    <circle cx="700" cy="470" r="6" fill="#FFF6E6" stroke="none"/>
+    <circle cx="1030" cy="424" r="7" fill="#F3C64F" stroke="none"/>
+</g>
+</svg>

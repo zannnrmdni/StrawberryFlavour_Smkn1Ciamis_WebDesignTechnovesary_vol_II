@@ -1,0 +1,17 @@
+# Folder ini hanya untuk gambar unggahan. Tolak apa pun yang bisa dieksekusi.
+<IfModule mod_authz_core.c>
+    <FilesMatch "\.(php|phtml|phar|phps|cgi|pl|py|sh|htaccess)$">
+        Require all denied
+    </FilesMatch>
+</IfModule>
+
+<IfModule !mod_authz_core.c>
+    <FilesMatch "\.(php|phtml|phar|phps|cgi|pl|py|sh|htaccess)$">
+        Order allow,deny
+        Deny from all
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>

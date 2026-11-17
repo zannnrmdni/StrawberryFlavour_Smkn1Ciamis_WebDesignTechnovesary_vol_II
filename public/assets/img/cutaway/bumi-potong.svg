@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="1000" height="800" role="img" aria-labelledby="cutaway-title cutaway-desc">
+  <title id="cutaway-title">Potongan bumi</title>
+  <desc id="cutaway-desc">Bumi dipotong pada sepertiga bagian. Sisi kiri memperlihatkan permukaan dengan benua dan laut; sisi kanan memperlihatkan kerak tipis, batuan, dan mantel atas yang lebih tebal.</desc>
+  <defs>
+    <clipPath id="globe">
+      <circle cx="500" cy="400" r="300"/>
+    </clipPath>
+    <clipPath id="left-half">
+      <rect x="180" y="80" width="320" height="640"/>
+    </clipPath>
+    <pattern id="speckle" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="7" r="2" fill="#FFF6E6" opacity=".18"/>
+      <circle cx="19" cy="18" r="1.5" fill="#16262B" opacity=".2"/>
+    </pattern>
+  </defs>
+
+  <ellipse cx="500" cy="738" rx="310" ry="26" fill="#557187" opacity=".22"/>
+
+  <g clip-path="url(#globe)">
+    <circle cx="500" cy="400" r="300" fill="#F26A55"/>
+    <circle cx="500" cy="400" r="292" fill="#557187"/>
+    <circle cx="500" cy="400" r="272" fill="#DE7A45"/>
+    <circle cx="500" cy="400" r="262" fill="#F26A55"/>
+    <circle cx="500" cy="400" r="190" fill="#F26A55"/>
+    <circle cx="500" cy="400" r="300" fill="url(#speckle)"/>
+
+    <circle cx="500" cy="400" r="262" fill="none" stroke="#16262B" stroke-width="3" stroke-dasharray="10 10" opacity=".55"/>
+    <path d="M500 108c-34 84-16 158 24 214s46 118 10 196M500 108c30 70 20 140-16 196s-38 112-10 188M292 250c70 18 126 54 160 108M708 590c-62-10-112-40-148-90" fill="none" stroke="#16262B" stroke-width="3" opacity=".22"/>
+
+    <g clip-path="url(#left-half)">
+      <circle cx="500" cy="400" r="300" fill="#BFE4F5"/>
+      <path d="M278 142c58-30 122-32 180-8 26 10 26 34 6 52-24 22-28 58-8 84 20 28 12 58-20 72-34 16-52 46-44 80 10 40-6 74-42 94-42 22-90 12-120-22-32-36-30-82 4-114 26-26 28-60 12-92-18-36-6-76 32-104z" fill="#86C254"/>
+      <path d="M414 520c30-18 64-10 84 18 16 24 12 52-10 70-26 20-58 12-72-16-14-30-14-56-2-72z" fill="#86C254"/>
+      <path d="M200 314c32-16 64-8 82 18M292 596c34-10 66 2 84 28" fill="none" stroke="#FFF6E6" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+      <path d="M240 200c18-10 38-12 56-6M300 368c22-8 42-4 58 10M214 470c20-6 38 0 50 14" fill="none" stroke="#FFF6E6" stroke-width="5" stroke-linecap="round" opacity=".45"/>
+    </g>
+
+    <path d="M500 100v600" stroke="#16262B" stroke-width="5"/>
+    <circle cx="500" cy="400" r="300" fill="none" stroke="#16262B" stroke-width="6"/>
+    <path d="M500 100a300 300 0 0 1 0 600" fill="none" stroke="#FFF6E6" stroke-width="2" opacity=".4"/>
+  </g>
+
+  <g fill="none" stroke="#16262B" stroke-width="4" stroke-linecap="round">
+    <path d="M806 300h52M858 300l-14-14M858 300l-14 14"/>
+    <path d="M806 400h52M858 400l-14-14M858 400l-14 14"/>
+    <path d="M806 496h52M858 496l-14-14M858 496l-14 14"/>
+  </g>
+</svg>

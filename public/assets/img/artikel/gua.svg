@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img">
+<rect width="1200" height="600" fill="#FFF6E6"/>
+<g fill="none" stroke="#16262B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M0 600V260C0 140 140 40 300 40s300 100 300 220v340z" fill="#BFE4F5" stroke="none"/>
+    <path d="M0 600V260C0 140 140 40 300 40s300 100 300 220v340" stroke-width="6"/>
+    <path d="M600 600V320c0-110 110-190 240-190s240 80 240 190v280z" fill="#BFE4F5" stroke="none" opacity=".8"/>
+    <path d="M600 600V320c0-110 110-190 240-190s240 80 240 190v280" stroke-width="6"/>
+    <path d="M180 600V360c0-44 26-72 64-84M380 600V390c0-34-16-58-44-72" stroke="#557187" stroke-width="6"/>
+    <path d="M780 600V420c0-40 22-68 56-82M980 600V440c0-26-12-46-34-60" stroke="#557187" stroke-width="6"/>
+    <path d="M110 180l18 84 16-64 20 90 14-56 22 76 16-60 18 58" stroke="#FFF6E6" stroke-width="10"/>
+    <path d="M730 220l14 70 16-54 18 76 12-46 18 64 14-50" stroke="#FFF6E6" stroke-width="9"/>
+    <path d="M0 520c70-30 140-30 210 0s140 30 210 0 140-30 210 0 140 30 210 0 140-30 210 0 140 30 210 0" stroke="#16262B" stroke-width="5"/>
+    <path d="M0 552c70-26 140-26 210 0s140 26 210 0 140-26 210 0 140 26 210 0 140-26 210 0 140 26 210 0" stroke="#F3C64F" stroke-width="4" opacity=".7"/>
+    <circle cx="250" cy="450" r="6" fill="#F3C64F" stroke="none"/>
+    <circle cx="870" cy="390" r="5" fill="#F3C64F" stroke="none"/>
+    <circle cx="1080" cy="490" r="7" fill="#7B4B2A" stroke="none"/>
+</g>
+</svg>

@@ -1,0 +1,324 @@
+[16-Nov-2026 15:36:38 UTC] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Nov-2026 15:36:38 UTC] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:29
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(29): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/')
+#9 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#10 {main}
+
+Next RuntimeException: Database tidak bisa dihubungi. Periksa konfigurasi di config/config.php. in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:37
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/')
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#9 {main}
+[16-Nov-2026 15:36:40 UTC] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Nov-2026 15:36:40 UTC] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:29
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(29): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/favicon.ico')
+#9 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#10 {main}
+
+Next RuntimeException: Database tidak bisa dihubungi. Periksa konfigurasi di config/config.php. in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:37
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/favicon.ico')
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#9 {main}
+[16-Nov-2026 15:36:50 UTC] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Nov-2026 15:36:50 UTC] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:29
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(29): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/')
+#9 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#10 {main}
+
+Next RuntimeException: Database tidak bisa dihubungi. Periksa konfigurasi di config/config.php. in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:37
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/')
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#9 {main}
+[16-Nov-2026 15:36:52 UTC] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Nov-2026 15:36:52 UTC] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:29
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(29): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/favicon.ico')
+#9 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#10 {main}
+
+Next RuntimeException: Database tidak bisa dihubungi. Periksa konfigurasi di config/config.php. in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:37
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/favicon.ico')
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#9 {main}
+[16-Nov-2026 15:37:19 UTC] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Nov-2026 15:37:19 UTC] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:29
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(29): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/')
+#9 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#10 {main}
+
+Next RuntimeException: Database tidak bisa dihubungi. Periksa konfigurasi di config/config.php. in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:37
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/')
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#9 {main}
+[16-Nov-2026 15:37:21 UTC] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Nov-2026 15:37:21 UTC] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:29
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(29): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/favicon.ico')
+#9 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#10 {main}
+
+Next RuntimeException: Database tidak bisa dihubungi. Periksa konfigurasi di config/config.php. in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:37
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/favicon.ico')
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#9 {main}
+[16-Nov-2026 15:37:27 UTC] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Nov-2026 15:37:27 UTC] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:29
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(29): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/')
+#9 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#10 {main}
+
+Next RuntimeException: Database tidak bisa dihubungi. Periksa konfigurasi di config/config.php. in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:37
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/')
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#9 {main}
+[16-Nov-2026 15:37:29 UTC] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Nov-2026 15:37:29 UTC] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:29
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(29): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/favicon.ico')
+#9 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#10 {main}
+
+Next RuntimeException: Database tidak bisa dihubungi. Periksa konfigurasi di config/config.php. in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:37
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/favicon.ico')
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#9 {main}
+[16-Nov-2026 15:37:31 UTC] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Nov-2026 15:37:31 UTC] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:29
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(29): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/')
+#9 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#10 {main}
+
+Next RuntimeException: Database tidak bisa dihubungi. Periksa konfigurasi di config/config.php. in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:37
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/')
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#9 {main}
+[16-Nov-2026 15:37:33 UTC] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Nov-2026 15:37:33 UTC] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:29
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(29): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/favicon.ico')
+#9 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#10 {main}
+
+Next RuntimeException: Database tidak bisa dihubungi. Periksa konfigurasi di config/config.php. in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:37
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/favicon.ico')
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#9 {main}
+[16-Nov-2026 15:37:42 UTC] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Nov-2026 15:37:42 UTC] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:29
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(29): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/')
+#9 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#10 {main}
+
+Next RuntimeException: Database tidak bisa dihubungi. Periksa konfigurasi di config/config.php. in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:37
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/')
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#9 {main}
+[16-Nov-2026 15:37:44 UTC] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Nov-2026 15:37:44 UTC] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:29
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(29): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/favicon.ico')
+#9 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#10 {main}
+
+Next RuntimeException: Database tidak bisa dihubungi. Periksa konfigurasi di config/config.php. in C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php:37
+Stack trace:
+#0 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(45): App\Core\Database::connection()
+#1 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Database.php(58): App\Core\Database::statement('SELECT * FROM l...', Array)
+#2 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(12): App\Core\Database::fetchAll('SELECT * FROM l...')
+#3 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Models\Layer.php(20): App\Models\Layer::all()
+#4 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Controllers\HomeController.php(26): App\Models\Layer::allWithMilestones()
+#5 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(92): App\Controllers\HomeController->index()
+#6 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\app\Core\Router.php(80): App\Core\Router->invoke(Array, Array)
+#7 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\index.php(43): App\Core\Router->dispatch('GET', '/favicon.ico')
+#8 C:\Users\LENOVO\OneDrive\Documents\Default Project\dalam-bumi\public\router.php(14): require('C:\\Users\\LENOVO...')
+#9 {main}

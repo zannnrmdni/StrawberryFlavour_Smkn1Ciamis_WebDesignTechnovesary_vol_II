@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" width="320" height="240" role="img" aria-label="Ilustrasi lapisan tanah">
+  <rect width="320" height="240" fill="#FFF6E6"/>
+  <path d="M0 78h320v162H0z" fill="#7B4B2A"/>
+  <path d="M0 132h320v108H0z" fill="#DE7A45"/>
+  <path d="M0 176h320v64H0z" fill="#F3C64F"/>
+  <path d="M0 78h320M0 132h320M0 176h320" stroke="#16262B" stroke-width="3"/>
+  <path d="M160 76V34" stroke="#16262B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M160 48c-20 0-30-10-32-24 20-2 30 8 32 24z" fill="#86C254" stroke="#16262B" stroke-width="3"/>
+  <path d="M160 38c18-2 27-12 28-26-19 0-27 10-28 26z" fill="#86C254" stroke="#16262B" stroke-width="3"/>
+  <circle cx="86" cy="154" r="5" fill="#FFF6E6" opacity=".55"/>
+  <circle cx="228" cy="108" r="4" fill="#F3C64F"/>
+  <circle cx="252" cy="196" r="6" fill="#FFF6E6" opacity=".45"/>
+  <circle cx="64" cy="204" r="4" fill="#FFF6E6" opacity=".45"/>
+</svg>
