@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id" class="no-js">
+<head>
+<meta charset="utf-8">
+<script>
+(function () {
+  var repo = "/nama-repo/";
+  var local = location.protocol === 'file:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+  var root = location.protocol === 'file:' ? './' : (local ? '/' : repo);
+  document.write('<base href="' + root + '">');
+  document.documentElement.setAttribute('data-base', './');
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Halaman tidak ditemukan · Bumi Bawah</title>
+<meta name="description" content="Alamat yang Anda buka tidak ada. Kembali ke perjalanan atau cari artikel di arsip.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#FFF6E6">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/app.css">
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
+</head>
+<body data-page="404">
+<a class="skip-link" href="#konten">Lewati ke isi</a>
+<div data-site-header></div>
+<main id="konten" class="error-page">
+  <div class="error-page__inner">
+    <p class="error-page__code">404</p>
+    <h1 class="error-page__title">Lapisan ini belum dipetakan.</h1>
+    <p class="error-page__lede">Alamat yang Anda buka tidak ada di situs. Mungkin tautannya berubah, atau halaman ini belum pernah dibuat. Dua jalan yang tersedia: kembali ke permukaan, atau masuk ke arsip.</p>
+    <div class="error-page__actions">
+      <a class="btn btn--ink" href="index.html">Kembali ke beranda</a>
+      <a class="btn btn--outline" href="artikel.html">Buka artikel</a>
+      <a class="link-underline" href="kontak.html">Laporkan tautan mati</a>
+    </div>
+  </div>
+  <div class="error-page__strata" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+</main>
+<div data-site-footer></div>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/core.min.js"></script>
+</body>
+</html>

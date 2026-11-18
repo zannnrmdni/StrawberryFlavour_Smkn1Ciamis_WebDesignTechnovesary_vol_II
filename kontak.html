@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="id" class="no-js" data-base="./">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontak · Bumi Bawah</title>
+<meta name="description" content="Kirim koreksi fakta, usulan sumber, cerita lapangan, atau pertanyaan kerja sama ke Bumi Bawah.">
+<link rel="canonical" href="https://username.github.io/nama-repo/kontak.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bumi Bawah">
+<meta property="og:locale" content="id_ID">
+<meta property="og:title" content="Kontak · Bumi Bawah">
+<meta property="og:description" content="Kirim koreksi fakta, usulan sumber, cerita lapangan, atau pertanyaan kerja sama ke Bumi Bawah.">
+<meta property="og:url" content="https://username.github.io/nama-repo/kontak.html">
+<meta property="og:image" content="https://username.github.io/nama-repo/assets/img/galeri/hutan-leuser.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kontak · Bumi Bawah">
+<meta name="twitter:description" content="Kirim koreksi fakta, usulan sumber, cerita lapangan, atau pertanyaan kerja sama ke Bumi Bawah.">
+<meta name="twitter:image" content="https://username.github.io/nama-repo/assets/img/galeri/hutan-leuser.webp">
+<meta name="theme-color" content="#FFF6E6">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="./assets/fonts/literata-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./assets/fonts/gabarito-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./assets/css/app.css">
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
+
+</head>
+<body data-page="kontak">
+<a class="skip-link" href="#konten">Lewati ke isi</a>
+<div data-site-header></div>
+<main id="konten">
+<div class="page-head page-head--contact">
+  <div class="page-head__inner">
+    <p class="page-head__eyebrow">Kontak</p>
+    <h1>Koreksi kecil menyelamatkan banyak pembaca.</h1>
+    <p class="page-head__lede">Kami membaca semua pesan, terutama yang membawa tautan sumber. Situs ini tidak punya basis data, jadi tidak ada akun atau riwayat pesan yang disimpan di sini.</p>
+  </div>
+</div>
+
+<section class="contact">
+  <div class="contact__inner">
+    <div class="contact-info">
+      <h2>Sebelum menulis</h2>
+      <div class="contact-info__block">
+        <p class="contact-info__label">Jenis pesan yang paling membantu</p>
+        <p>Koreksi angka disertai tautan jurnal atau lembaga; usulan sumber primer; catatan lapangan dari tempat yang Anda kenal; dan laporan tautan mati.</p>
+      </div>
+      <div class="contact-info__block">
+        <p class="contact-info__label">Surel</p>
+        <!-- <p><a class="link-underline" href="mailto:halo@bumibawah.id">halo@bumibawah.id</a></p> -->
+        <p class="contact-info__note">Balasan bisa memakan beberapa hari. Kami tidak menerima kiriman artikel tamu tanpa contoh tulisan.</p>
+      </div>
+      <div class="contact-info__block">
+        <p class="contact-info__label">Lokasi</p>
+        <p>Indonesia</p>
+        <p class="contact-info__note">Waktu Indonesia Barat (UTC+7).</p>
+      </div>
+      <!-- <div class="contact-map">
+        <iframe title="Peta OpenStreetMap wilayah Yogyakarta" src="https://www.openstreetmap.org/export/embed.html?bbox=110.3300%2C-7.8400%2C110.4300%2C-7.7400&amp;layer=mapnik&amp;marker=-7.7956%2C110.3695" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Peta oleh kontributor OpenStreetMap, lisensi ODbL. <a class="link-underline" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">Kredit peta</a>.</p>
+      </div> -->
+    </div>
+
+    <div class="contact-form-wrap">
+      <h2>Kirim pesan</h2>
+      <p class="contact-form__note" data-config-note hidden>Formulir belum disambungkan ke layanan pengiriman. Anda tetap bisa memakai tombol <strong>Kirim lewat email</strong> di bawah.</p>
+      <form class="contact-form" data-contact-form novalidate>
+        <div class="field">
+          <label for="nama">Nama atau panggilan</label>
+          <input id="nama" name="nama" type="text" autocomplete="name" required aria-describedby="err-nama">
+          <p class="field__error" id="err-nama" data-error-for="nama" hidden></p>
+        </div>
+        <div class="field">
+          <label for="email">Email untuk balasan</label>
+          <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="err-email">
+          <p class="field__error" id="err-email" data-error-for="email" hidden></p>
+        </div>
+        <div class="field">
+          <label for="subjek">Jenis pesan</label>
+          <select id="subjek" name="subjek" required aria-describedby="err-subjek">
+            <option value="">Pilih satu…</option>
+            <option>Koreksi fakta</option>
+            <option>Usulan sumber</option>
+            <option>Cerita lapangan</option>
+            <option>Kerja sama</option>
+            <option>Lainnya</option>
+          </select>
+          <p class="field__error" id="err-subjek" data-error-for="subjek" hidden></p>
+        </div>
+        <div class="field">
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" rows="7" required aria-describedby="err-pesan hint-pesan"></textarea>
+          <p class="field__hint" id="hint-pesan">Sertakan tautan sumber bila mengoreksi angka. Minimal 20 huruf.</p>
+          <p class="field__error" id="err-pesan" data-error-for="pesan" hidden></p>
+        </div>
+        <div class="field field--honey" aria-hidden="true">
+          <label for="botcheck">Jangan centang kolom ini</label>
+          <input id="botcheck" name="botcheck" type="checkbox" tabindex="-1" autocomplete="off">
+        </div>
+        <div class="contact-form__actions">
+          <button class="btn btn--ink" type="submit" data-form-submit>Kirim pesan</button>
+          <!-- <a class="btn btn--outline" href="mailto:halo@bumibawah.id" data-mailto>Kirim lewat email</a> -->
+        </div>
+        <p class="contact-form__note">Dengan mengirim, Anda setuju alamat email dipakai hanya untuk membalas pesan ini. Tidak ada langganan otomatis.</p>
+        <div class="notice" data-form-status role="status" aria-live="polite" hidden></div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+<div data-site-footer></div>
+<script src="./assets/js/config.js"></script>
+<script src="./assets/js/layout.js"></script>
+
+<script src="./assets/js/core.min.js"></script>
+</body>
+</html>
