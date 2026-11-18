@@ -104,15 +104,11 @@
             return '<li><a href="' + href(item.path) + '">' + esc(item.label) + '</a></li>';
           }).join('') + '</ul>' +
         '</nav>' +
-        '<div class="site-footer__credits">' +
-          '<p class="site-footer__title">Sumber dan lisensi</p>' +
-          '<p>Ilustrasi dan tekstur dibuat sendiri (CC0). Foto bumi: NASA Blue Marble, domain publik. Font Gabarito dan Literata memakai SIL OFL 1.1.</p>' +
-          '<p><a class="link-underline" href="' + href('tentang.html#lisensi') + '">Baca daftar lisensi lengkap</a></p>' +
-        '</div>' +
+        
       '</div>' +
       '<div class="site-footer__bottom">' +
-        '<span>&copy; ' + year + ' Bumi Bawah. Dibuat di ' + esc(cfg.location || 'Indonesia') + '.</span>' +
-        '<span>Tanpa pelacak, tanpa basis data.</span>' +
+        '<span>&copy; ' + year + ' Bumi Bawah' + esc(cfg.location || 'Indonesia') + '.</span>' +
+        
       '</div>' +
     '</footer>';
 
