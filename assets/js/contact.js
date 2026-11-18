@@ -90,7 +90,7 @@
     var pesan = (fields.pesan?.value || '').trim();
     var body = pesan + '\n\n— ' + nama + (fields.email?.value ? ' (' + fields.email.value.trim() + ')' : '');
     mailto.href =
-      'mailto:' + (cfg.email || 'halo@bumibawah.id') +
+      'mailto:' + (cfg.email || 'dalambumi67@gmail.com') +
       '?subject=' + encodeURIComponent('[Bumi Bawah] ' + subjek) +
       '&body=' + encodeURIComponent(body);
   }
