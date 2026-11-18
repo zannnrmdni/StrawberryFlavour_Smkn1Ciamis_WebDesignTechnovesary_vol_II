@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="1000" height="800" role="img" aria-labelledby="cutaway-title cutaway-desc">
   <title id="cutaway-title">Potongan bumi</title>
-  <desc id="cutaway-desc">Bumi dipotong pada sepertiga bagian. Sisi kiri memperlihatkan permukaan dengan benua dan laut; sisi kanan memperlihatkan kerak tipis, batuan, dan mantel atas yang lebih tebal.</desc>
+  <desc id="cutaway-desc">Bumi dipotong pada sepertiga bagian. Sisi kiri memperlihatkan permukaan dengan benua dan laut; sisi kanan memperlihatkan kerak tipis, mantel, inti luar, dan inti dalam.</desc>
   <defs>
     <clipPath id="globe">
       <circle cx="500" cy="400" r="300"/>
@@ -17,15 +17,14 @@
   <ellipse cx="500" cy="738" rx="310" ry="26" fill="#557187" opacity=".22"/>
 
   <g clip-path="url(#globe)">
-    <circle cx="500" cy="400" r="300" fill="#F26A55"/>
-    <circle cx="500" cy="400" r="292" fill="#557187"/>
-    <circle cx="500" cy="400" r="272" fill="#DE7A45"/>
-    <circle cx="500" cy="400" r="262" fill="#F26A55"/>
-    <circle cx="500" cy="400" r="190" fill="#F26A55"/>
+    <circle cx="500" cy="400" r="300" fill="#6F6862"/>
+    <circle cx="500" cy="400" r="294" fill="#E0612F"/>
+    <circle cx="500" cy="400" r="190" fill="#F2A33C"/>
+    <circle cx="500" cy="400" r="120" fill="#F7E3A1"/>
     <circle cx="500" cy="400" r="300" fill="url(#speckle)"/>
 
-    <circle cx="500" cy="400" r="262" fill="none" stroke="#16262B" stroke-width="3" stroke-dasharray="10 10" opacity=".55"/>
-    <path d="M500 108c-34 84-16 158 24 214s46 118 10 196M500 108c30 70 20 140-16 196s-38 112-10 188M292 250c70 18 126 54 160 108M708 590c-62-10-112-40-148-90" fill="none" stroke="#16262B" stroke-width="3" opacity=".22"/>
+    <circle cx="500" cy="400" r="294" fill="none" stroke="#16262B" stroke-width="3" stroke-dasharray="10 10" opacity=".55"/>
+    <path d="M500 106c-58 92-22 152 34 214s58 128 6 206M500 106c44 84 18 148-28 204s-44 130-4 206M216 258c76 26 134 66 168 118M734 574c-70-14-126-48-160-100" fill="none" stroke="#16262B" stroke-width="3" opacity=".2"/>
 
     <g clip-path="url(#left-half)">
       <circle cx="500" cy="400" r="300" fill="#BFE4F5"/>
