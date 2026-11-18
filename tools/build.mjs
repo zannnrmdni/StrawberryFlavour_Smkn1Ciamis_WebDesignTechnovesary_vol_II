@@ -44,10 +44,10 @@ const pick = (pattern, fallback = '') => {
   const match = configSource.match(pattern);
   return match ? match[1] : fallback;
 };
-const baseUrl = pick(/baseUrl:\s*'([^']*)'/, 'https://username.github.io/nama-repo/');
+const baseUrl = pick(/baseUrl:\s*'([^']*)'/, 'https://github.com/zannnrmdni/StrawberryFlavour_Smkn1Ciamis_WebDesignTechnovesary_vol_II');
 const siteName = pick(/siteName:\s*'([^']*)'/, 'Bumi Bawah');
-const siteEmail = pick(/email:\s*'([^']*)'/, 'halo@bumibawah.id');
-const siteLocation = pick(/location:\s*'([^']*)'/, 'Yogyakarta, Indonesia');
+const siteEmail = pick(/email:\s*'([^']*)'/, 'dalambumi67@gmail.com');
+const siteLocation = pick(/location:\s*'([^']*)'/, 'Indonesia');
 
 const deployPath = (() => {
   try {
@@ -438,7 +438,6 @@ function homePage() {
       <p class="orbit__arrivaltitle">Serasah dan humus</p>
       <p class="orbit__arrivalnote">Perjalanan dimulai dari sisa daun yang belum selesai membusuk.</p>
     </div>
-    <p class="orbit__credit">Foto bumi: NASA Blue Marble · domain publik</p>
   </div>
 </section>
 
@@ -716,28 +715,28 @@ function aboutPage() {
   </div>
 </section>
 
-<section class="about-section about-section--licenses" id="lisensi">
-  <div class="about-section__inner">
-    <p class="section-head__eyebrow">Lisensi</p>
-    <h2>Boleh dipakai, dengan kredit.</h2>
-    <p class="about-section__lede">Teks, ilustrasi, dan tekstur buatan kami dirilis sebagai CC0. Aset pihak ketiga memakai lisensinya masing-masing seperti di bawah.</p>
-    <p class="license-table__hint">Tabel bisa digeser ke samping untuk melihat semua kolom.</p>
-    <div class="license-table" role="table" aria-label="Daftar lisensi aset">
-      <div class="license-table__row license-table__head" role="row">
-        <span role="columnheader">Aset</span><span role="columnheader">Pembuat</span><span role="columnheader">Lisensi</span><span role="columnheader">Catatan</span>
-      </div>
-      <div class="license-table__row" role="row"><span role="cell">Teks dan artikel</span><span role="cell">Tim Bumi Bawah</span><span role="cell">CC0 1.0</span><span role="cell">Bebas dipakai; kredit tidak wajib tetapi dihargai.</span></div>
-      <div class="license-table__row" role="row"><span role="cell">Ilustrasi SVG dan tekstur WebP</span><span role="cell">Tim Bumi Bawah</span><span role="cell">CC0 1.0</span><span role="cell">Dibuat sendiri secara prosedural dari bentuk dan derau.</span></div>
-      <div class="license-table__row" role="row"><span role="cell">Foto Bumi</span><span role="cell">NASA Blue Marble</span><span role="cell">Domain publik</span><span role="cell">Tidak menyiratkan dukungan NASA.</span></div>
-      <div class="license-table__row" role="row"><span role="cell">Three.js</span><span role="cell">Three.js contributors</span><span role="cell">MIT</span><span role="cell">Berkas lokal di <code>assets/vendor/three</code>.</span></div>
-      <div class="license-table__row" role="row"><span role="cell">GSAP dan ScrollTrigger</span><span role="cell">Webflow / GreenSock</span><span role="cell">Lisensi standar GreenSock</span><span role="cell">Dipakai tanpa biaya sesuai lisensi.</span></div>
-      <div class="license-table__row" role="row"><span role="cell">Tailwind CSS, esbuild</span><span role="cell">Masing-masing proyek</span><span role="cell">MIT</span><span role="cell">Alat build, tidak dikirim ke peramban selain CSS hasil.</span></div>
-      <div class="license-table__row" role="row"><span role="cell">Font Gabarito</span><span role="cell">Rodrigo Fuenzalida</span><span role="cell">SIL OFL 1.1</span><span role="cell">Disimpan lokal di <code>assets/fonts</code>.</span></div>
-      <div class="license-table__row" role="row"><span role="cell">Font Literata</span><span role="cell">TypeTogether</span><span role="cell">SIL OFL 1.1</span><span role="cell">Disimpan lokal di <code>assets/fonts</code>.</span></div>
-    </div>
-    <p class="about-section__note">Sumber berita dan jurnal tetap milik penerbitnya. Kami tidak menyalin teks atau foto mereka; yang kami tulis adalah ringkasan dan tautan.</p>
-  </div>
-</section>
+// <section class="about-section about-section--licenses" id="lisensi">
+//   <div class="about-section__inner">
+//     <p class="section-head__eyebrow">Lisensi</p>
+//     <h2>Boleh dipakai, dengan kredit.</h2>
+//     <p class="about-section__lede">Teks, ilustrasi, dan tekstur buatan kami dirilis sebagai CC0. Aset pihak ketiga memakai lisensinya masing-masing seperti di bawah.</p>
+//     <p class="license-table__hint">Tabel bisa digeser ke samping untuk melihat semua kolom.</p>
+//     <div class="license-table" role="table" aria-label="Daftar lisensi aset">
+//       <div class="license-table__row license-table__head" role="row">
+//         <span role="columnheader">Aset</span><span role="columnheader">Pembuat</span><span role="columnheader">Lisensi</span><span role="columnheader">Catatan</span>
+//       </div>
+//       <div class="license-table__row" role="row"><span role="cell">Teks dan artikel</span><span role="cell">Tim Bumi Bawah</span><span role="cell">CC0 1.0</span><span role="cell">Bebas dipakai; kredit tidak wajib tetapi dihargai.</span></div>
+//       <div class="license-table__row" role="row"><span role="cell">Ilustrasi SVG dan tekstur WebP</span><span role="cell">Tim Bumi Bawah</span><span role="cell">CC0 1.0</span><span role="cell">Dibuat sendiri secara prosedural dari bentuk dan derau.</span></div>
+//       <div class="license-table__row" role="row"><span role="cell">Foto Bumi</span><span role="cell">NASA Blue Marble</span><span role="cell">Domain publik</span><span role="cell">Tidak menyiratkan dukungan NASA.</span></div>
+//       <div class="license-table__row" role="row"><span role="cell">Three.js</span><span role="cell">Three.js contributors</span><span role="cell">MIT</span><span role="cell">Berkas lokal di <code>assets/vendor/three</code>.</span></div>
+//       <div class="license-table__row" role="row"><span role="cell">GSAP dan ScrollTrigger</span><span role="cell">Webflow / GreenSock</span><span role="cell">Lisensi standar GreenSock</span><span role="cell">Dipakai tanpa biaya sesuai lisensi.</span></div>
+//       <div class="license-table__row" role="row"><span role="cell">Tailwind CSS, esbuild</span><span role="cell">Masing-masing proyek</span><span role="cell">MIT</span><span role="cell">Alat build, tidak dikirim ke peramban selain CSS hasil.</span></div>
+//       <div class="license-table__row" role="row"><span role="cell">Font Gabarito</span><span role="cell">Rodrigo Fuenzalida</span><span role="cell">SIL OFL 1.1</span><span role="cell">Disimpan lokal di <code>assets/fonts</code>.</span></div>
+//       <div class="license-table__row" role="row"><span role="cell">Font Literata</span><span role="cell">TypeTogether</span><span role="cell">SIL OFL 1.1</span><span role="cell">Disimpan lokal di <code>assets/fonts</code>.</span></div>
+//     </div>
+//     <p class="about-section__note">Sumber berita dan jurnal tetap milik penerbitnya. Kami tidak menyalin teks atau foto mereka; yang kami tulis adalah ringkasan dan tautan.</p>
+//   </div>
+// </section>
 
 <section class="about-section">
   <div class="about-section__inner about-section__inner--split">
@@ -1145,7 +1144,7 @@ function contactPage() {
         <p class="contact-info__note">Waktu Indonesia Barat (UTC+7).</p>
       </div>
       <div class="contact-map">
-        <iframe title="Peta OpenStreetMap wilayah Yogyakarta" src="${esc(pick(/osmEmbed:\s*\n?\s*'([^']*)'/, 'https://www.openstreetmap.org/export/embed.html?bbox=110.3300%2C-7.8400%2C110.4300%2C-7.7400&layer=mapnik'))}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe title="Peta OpenStreetMap" src="${esc(pick(/osmEmbed:\s*\n?\s*'([^']*)'/, 'https://www.openstreetmap.org/export/embed.html?bbox=110.3300%2C-7.8400%2C110.4300%2C-7.7400&layer=mapnik'))}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <p>Peta oleh kontributor OpenStreetMap, lisensi ODbL. <a class="link-underline" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">Kredit peta</a>.</p>
       </div>
     </div>

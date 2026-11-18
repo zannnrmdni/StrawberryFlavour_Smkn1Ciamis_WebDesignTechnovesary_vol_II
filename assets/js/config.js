@@ -17,17 +17,17 @@
 */
 (function () {
   var config = {
-    baseUrl: 'https://username.github.io/nama-repo/',
+    baseUrl: 'https://github.com/zannnrmdni/StrawberryFlavour_Smkn1Ciamis_WebDesignTechnovesary_vol_II',
     siteName: 'Bumi Bawah',
     tagline: 'Edukasi setiap lapisan kerak bumi',
     description:
       'Turun dari serasah ke kerak bumi: enam lapisan, 25 penanda kedalaman, artikel, dan galeri ilustrasi.',
-    email: 'halo@bumibawah.id',
-    location: 'Yogyakarta, Indonesia',
+    email: 'dalambumi67@gmail.com',
+    location: 'Indonesia',
     contactEndpoint: 'https://api.web3forms.com/submit',
     contactAccessKey: '',
     social: [
-      { label: 'GitHub', url: 'https://github.com/username/nama-repo' }
+      { label: 'GitHub', url: 'https://github.com/zannnrmdni/StrawberryFlavour_Smkn1Ciamis_WebDesignTechnovesary_vol_II' }
     ],
     osmEmbed:
       'https://www.openstreetmap.org/export/embed.html?bbox=110.3300%2C-7.8400%2C110.4300%2C-7.7400&layer=mapnik&marker=-7.7956%2C110.3695'
